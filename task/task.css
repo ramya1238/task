@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.choose {
+    background-color: rgb(28, 28, 112);
+    color: aliceblue;
+    padding: 40px;
+    height: max-content;
+}
+.choose_header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.choose > div {
+    display: inline-block;
+    justify-content: space-around;
+    height: fit-content;
+    width: 29%;
+    padding: 20px 20px;
+    background-color: rgb(35, 35, 123);
+    text-align: center;
+    margin-left: 10px;
+}
+.choose  .para1 {
+    font-weight: bolder;
+
+}
+.choose  .para2 {
+ font-weight: lighter;
+}
+
+.HowItWorks {
+    text-align: center;
+}
+.HowItWorks > div {
+    display: inline-block;
+    justify-content: space-around;
+    width: 34%;
+    height: fit-content;
+    padding: 20px 20px;
+    text-align: left;
+}
+img {
+    border-radius: 5px;
+}
+.sheading {
+    font-size: 10px;
+    color: blue;
+}
+.ssheading {
+    font-weight: bold;
+    font-size: 20px;
+}
+.HowItWorks .para1 {
+    font-size: 14px;
+    font-weight: bold;
+    width: 81%;
+}
+.HowItWorks .para2 {
+    font-size: 14px;
+    font-weight: 400;
+    width: 81%;
+    color: rgb(74, 63, 63);
+}
+
+.featured_pack {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(
+      rgba(15, 60, 182, 0.862), 
+      rgba(21, 42, 159, 0.45)
+    ),
+    url(backimage.jpg);
+    background-size: cover;
+    background-position: right 20px bottom -10px;
+    padding: 40px;
+}
+.featured_pack h6 {
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.featured_pack b {
+    font-size: 20px;
+}
+.featured_pack button {
+    padding: 10px 40px;
+    border-radius: 3px;
+    opacity: 20%;
+    font-weight: 500;
+}
+.services > div {
+    display: inline-block;
+    justify-content: space-around;
+    height: fit-content;
+    width: 20%;
+    padding: 20px 20px;
+    text-align: center;
+    margin-left: 50px;
+    border: 1px solid rgb(223, 244, 251);
+    border-radius: 4px;
+    border-style: groove;
+}
+.services {
+    text-align: center;
+    margin: 20px;
+}
+.browse  {
+    text-align: center;
+    margin: 40px;
+}
+.browse button {
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(81, 79, 79);
+}
+.service_heading {
+    text-align: center;
+    color: rgb(83, 83, 209);
+}
+.service_ssheading {
+    text-align: center;
+}
+
+header > div{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+}
+a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(50, 46, 46);
+    font-weight: 500;
+}
+.register{
+    float: right;
+}
+.register button {
+    padding: 10px 30px;
+    background-color: orangered;
+    border: none;
+}
+.name {
+    display: inline-flex;
+}
+.thousands {
+    background-image: url(mobile.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: right 700px;
+    text-align: left;
+    color: white;
+}
+.p1 {
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.p2 {
+    padding-left: 50px;
+    font-size: 20px;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+#dot3 {
+    background-color: blue;
+    height: 8px;
+    width: 8px;
+}
+
+.client {
+    text-align: center;
+    margin: 40px;
+}
+.client_header {
+    font-size: 25px;
+    color: rgb(10, 10, 100);
+}
+.client img {
+    height: 100px;
+}
+.client h6 {
+    color: #3f3e3e;
+}
+.client pre {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon, .otherdivs, .upperBlock > div, .lowerBlock > div, .lower1 > div, .lower2 div  {
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.upperbutton {
+    text-align: center;
+    padding: 4px 30px;
+    border-radius: 15px;
+    border: 1px solid solid rgb(7,7,97);
+    background-color: white;
+}
+.upperBlock h5 {
+    margin-left: 10px;
+}
+ 
+ .upperbutton{
+    margin-left: 200px;
+    color: rgb(7, 7, 97);
+    font-weight: 600;
+ }
+ .lowerBlock > div {
+    display: inline-block;
+ }
+ .lower1 {
+    float: left;
+ }
+
+.bfs > div {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.footer {
+    background-color: rgb(2, 4, 29);
+    color: white;
+}
+
+.footer1 > div {
+    display: inline-block;
+    justify-content: space-around;
+    width: 20%;
+    text-align: center;
+    margin-left: 50px;
+}
+.f4 button {
+    text-align: center;
+    padding: 3px;
+    padding-right: 50px;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    color: #bbb;
+
+}
+.footer  p {
+    color: #bbb;
+    text-align: left;
+}
+.footer b {
+    font-weight: 500;
+}
+.footer b, .f4 button {
+    float: left;
+}
+.f5 > div {
+    display: inline-block;
+    justify-content: space-around;
+    margin: 40px;
+    text-align: center;
+}
+.f5_1 p {
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 40px;
+   
+}
+
+hr {
+    border: 1px solid #bbb;
+    opacity: 0.1;
+}
+
